@@ -49,7 +49,7 @@ fn main() {
         .unwrap();
 
     // run the instance
-    println!("MAIN STARTING");
+    println!("HOST: Main Starting");
     main_fn.call(&mut store, ()).unwrap();
-    println!("MAIN FINISHED");
+    println!("HOST: Main Finished");
 }
