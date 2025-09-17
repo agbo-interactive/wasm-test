@@ -6,6 +6,8 @@ Specifically I am setting a breakpoint at [guest.rs](./guest-module/src/guest.rs
 
 ![Screen capture of the debugger when debugging WASM on an arm64 Mac](./DebuggerScreenshot.png)
 
+Also, in a more complex guest application, I frequently am unable to set breakpoints on all the lines I would have expected to. It seems like debug info isn't being generated but as far as I can tell all the available debug options are being set correctly.
+
 Context: This is running on an arm64 M4 Powerbook laptop. I suspect it may be an arm64-specific issue but cannot confirm easily.
 
 # Application Organization
